@@ -1,8 +1,9 @@
 
 
 function App() {
+  const [selectedPage, setSelectedPage] = useState('home');
   return (
-    <div className="App">
+    <div className="App ">
       
     </div>
   );
