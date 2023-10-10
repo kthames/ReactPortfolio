@@ -7,8 +7,8 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
     return (
       <AnchorLink
         className={`${
-          selectedPage === lowerCasePage ? "text-yellow" : ""
-        } hover:text-yellow transition duration-500`}
+          selectedPage === lowerCasePage ? "text-neutral" : ""
+        } hover:text-accent transition duration-500`}
         href={`#${lowerCasePage}`}
         onClick={() => setSelectedPage(lowerCasePage)}
       >
@@ -21,12 +21,12 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}) => {
     const [isMenuToggled, setIsMenuToggled] = useState(false);
     const isAboveSmallScreens = useMediaQuery("(min-width: 768px)"); 
     //console.log(isAboveSmallScreens);
-    const navbarBackground = isTopOfPage ? "" : "bg-red";
+    const navbarBackground = isTopOfPage ? "" : "bg-secondary";
 
     return (
         <nav className = {`${navbarBackground} z-40 w-full fixed top-0 py-6`}> 
             <div className="flex items-center justify-between mx-auto w-5/6">
-             <h4 className="font-playfair text-3xl font-bold">KMT</h4>
+             <h4 className="font-playfair text-3xl font-bold">KT</h4>
 
                 {/*DESKTOP NAV */}
                 {isAboveSmallScreens ? (
@@ -37,17 +37,7 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}) => {
                             setSelectedPage={setSelectedPage}
                         />
                         <Link
-                            page="Skills"
-                            selectedPage={selectedPage}
-                            setSelectedPage={setSelectedPage}
-                        />
-                        <Link
                             page="Projects"
-                            selectedPage={selectedPage}
-                            setSelectedPage={setSelectedPage}
-                        />
-                        <Link
-                            page="Testimonials"
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
                         />
@@ -58,7 +48,7 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}) => {
                         />
                     </div>
                 ) : (
-                    <button className = "rounded-full bg-red p-2"
+                    <button className = "rounded-full bg-secondary p-2"
                     onClick={() => setIsMenuToggled(!isMenuToggled)}>
                         <img alt="menu-icon" src="../assets/menu-icon.svg"></img>
                     </button>
@@ -66,7 +56,7 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}) => {
 
                 {/* MOBILE MENU POPUP*/}
                 {!isAboveSmallScreens && isMenuToggled && (
-                    <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
+                    <div className="fixed right-0 bottom-0 h-full bg-accent w-[300px]">
                         {/* CLONE ICON */}
                         <div className = "flex justify-end p-12"> 
                             <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
@@ -74,7 +64,7 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}) => {
                             </button>
                         </div>
                         {/* MENU ITEMS */}
-                        <div className ="flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue">
+                        <div className ="flex flex-col gap-10 ml-[33%] text-2xl text-base-100 font-playfair">
                             <Link
                                 page="Home"
                                 selectedPage={selectedPage}
@@ -87,11 +77,6 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}) => {
                             />
                             <Link
                                 page="Projects"
-                                selectedPage={selectedPage}
-                                setSelectedPage={setSelectedPage}
-                            />
-                            <Link
-                                page="Testimonials"
                                 selectedPage={selectedPage}
                                 setSelectedPage={setSelectedPage}
                             />
