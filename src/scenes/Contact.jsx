@@ -18,7 +18,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="contact py-48">
+    <section id="contact" className="contact py-36">
       {/* HEADINGS */}
       <motion.div
         initial="hidden"
@@ -33,7 +33,7 @@ const Contact = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-yellow">CONTACT ME</span> TO GET STARTED
+            <span className="text-accent">CONTACT ME</span> TO GET STARTED
           </p>
           <div className="flex md:justify-end my-5">
             <LineGradient width="w-1/2" />
@@ -54,7 +54,7 @@ const Contact = () => {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src="../assets/contact-image.jpeg" alt="contact" />
+          {/* <img src="../assets/contact-image.jpeg" alt="contact" /> */}
         </motion.div>
 
         <motion.div
@@ -66,7 +66,7 @@ const Contact = () => {
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}
-          className="basis-1/2 mt-10 md:mt-0"
+          className="basis-1/2 md:mt-0"
         >
           <form
             target="_blank"
@@ -75,7 +75,7 @@ const Contact = () => {
             method="POST"
           >
             <input
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3"
+              className="w-full bg-primary font-semibold placeholder-opaque-black p-3"
               type="text"
               placeholder="NAME"
               {...register("name", {
@@ -84,14 +84,14 @@ const Contact = () => {
               })}
             />
             {errors.name && (
-              <p className="text-red mt-1">
+              <p className="text-error mt-1">
                 {errors.name.type === "required" && "This field is required."}
                 {errors.name.type === "maxLength" && "Max length is 100 char."}
               </p>
             )}
 
             <input
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full bg-primary font-semibold placeholder-opaque-black p-3 mt-5"
               type="text"
               placeholder="EMAIL"
               {...register("email", {
@@ -100,14 +100,14 @@ const Contact = () => {
               })}
             />
             {errors.email && (
-              <p className="text-red mt-1">
+              <p className="text-error mt-1">
                 {errors.email.type === "required" && "This field is required."}
                 {errors.email.type === "pattern" && "Invalid email address."}
               </p>
             )}
 
             <textarea
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full bg-primary font-semibold placeholder-opaque-black p-3 mt-5"
               name="message"
               placeholder="MESSAGE"
               rows="4"
@@ -118,7 +118,7 @@ const Contact = () => {
               })}
             />
             {errors.message && (
-              <p className="text-red mt-1">
+              <p className="text-error mt-1">
                 {errors.message.type === "required" &&
                   "This field is required."}
                 {errors.message.type === "maxLength" &&
@@ -127,7 +127,7 @@ const Contact = () => {
             )}
 
             <button
-              className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
+              className="p-5 bg-gradient-rainblue font-semibold text-deep-blue mt-5 hover:bg-error hover:text-neutral transition duration-500"
               type="submit"
             >
               SEND ME A MESSAGE
