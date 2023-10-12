@@ -21,7 +21,7 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}) => {
     const [isMenuToggled, setIsMenuToggled] = useState(false);
     const isAboveSmallScreens = useMediaQuery("(min-width: 768px)"); 
     //console.log(isAboveSmallScreens);
-    const navbarBackground = isTopOfPage ? "" : "bg-secondary";
+    const navbarBackground = isTopOfPage ? "" : "bg-gradient-rainblue";
 
     return (
         <nav className = {`${navbarBackground} z-40 w-full fixed top-0 py-6`}> 
