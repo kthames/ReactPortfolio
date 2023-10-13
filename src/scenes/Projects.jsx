@@ -15,21 +15,21 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title }) => {
+
+const Project = ({ title, link}) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-neutral z-30 flex flex-col justify-center items-center text-center p-16 text-base-100`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
-    <motion.div variants={projectVariant} className="relative">
+    <motion.div variants={projectVariant} className="relative max-w-[400px] max-h-[400px]">
       <div className={overlayStyles}>
         <p className="text-xl font-playfair">{title}</p>
-        <p className="mt-5">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
-        </p>
+        <button class="bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-2 px-4 border border-primary hover:border-transparent rounded m-auto">
+          Visit the App
+        </button>
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
     </motion.div>
   );
 };
@@ -58,9 +58,7 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+          Please check out my projects below! Through all of these projects I have learned so many new skills and I have built my confidence in software development. 
         </p>
       </motion.div>
 
@@ -74,28 +72,34 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-          <div
-            className="flex justify-center text-center items-center p-10 bg-secondary
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
-            BEAUTIFUL USER INTERFACES
-          </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          <Project title="Stock Trader" link="https://floating-wildwood-52719-0a69bbab7cea.herokuapp.com/login"/>
+          <Project title="Ublog" link="https://ublog-50a16cea80fc.herokuapp.com/"/>
+          <Project title="Hype Radar" link="https://github.com/fabioesilveira/hype-radar"/>
+
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="Work Day Scheduler" link="https://kthames.github.io/WorkDayScheduler/" />
+          <Project title="Weather Forecast" link="https://kthames.github.io/WeatherForecast/" />
+          <Project title="Java Quiz" link="https://kthames.github.io/JavaScriptQuiz/" />
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
+          <Project title="Password Generator" link ="https://kthames.github.io/PasswordGenerator/"/>
+          <Project title="Note Taker" link="https://kthames.github.io/NoteTaker/"/>
           <div
             className="flex justify-center text-center items-center p-10 bg-primary
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
-            SMOOTH USER EXPERIENCE
+            <p>VISIT MY GITHUB </p>
+            <a
+          className="hover:opacity-50 transition duration-500 mt-3 relative pr-5 pl-5"
+          href="https://github.com/kthames"
+          target="_blank"
+          rel="noreferrer"
+          >
+            <img alt="github-link" src="../assets/githubS.png" />
+          </a>
+            
+
           </div>
         </motion.div>
       </div>
