@@ -29,33 +29,20 @@ const Contact = () => {
           hidden: { opacity: 0, x: 50 },
           visible: { opacity: 1, x: 0 },
         }}
-        className="flex justify-end w-full"
+        className="flex justify-center w-full"
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
             <span className="text-accent">CONTACT ME</span> TO GET STARTED
           </p>
-          <div className="flex md:justify-end my-5">
+          <div className="flex md:justify-center my-5">
             <LineGradient width="w-1/2" />
           </div>
         </div>
       </motion.div>
 
-      {/* FORM & IMAGE */}
-      <div className="md:flex md:justify-between gap-16 mt-5">
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.5 }}
-          variants={{
-            hidden: { opacity: 0, y: 50 },
-            visible: { opacity: 1, y: 0 },
-          }}
-          className="basis-1/2 flex justify-center"
-        >
-          {/* <img src="../assets/contact-image.jpeg" alt="contact" /> */}
-        </motion.div>
+      {/* FORM  */}
+      <div className="md:flex gap-16 mt-5 justify-center">
 
         <motion.div
           initial="hidden"
@@ -71,7 +58,7 @@ const Contact = () => {
           <form
             target="_blank"
             onSubmit={onSubmit}
-            action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+            action="https://formsubmit.co/bcadf3807c7a58a5993d7a037701d65c"
             method="POST"
           >
             <input
