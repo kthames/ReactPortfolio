@@ -19,8 +19,8 @@ return (
                 before:w-full before:max-w-[400px] md:before:max-w-[400px] before:h-full before:border-2 before:border-accent before:z-[-1]">
                    <img
                         alt="profile"
-                        className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-                        src="../assets/weenie.jpg"
+                        className="hover:filter hover:saturate-150 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
+                        src="../assets/Avatar.jpeg"
                     />
 
                   </div>
@@ -28,8 +28,8 @@ return (
             ) : (
                 <img 
                 alt="profile"
-                className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-                src="../assets/weenie.jpg"
+                className="z-10 w-full max-w-[300px] md:max-w-[500px]"
+                src="../assets/Avatar.jpeg"
                 />   
             )}
         </div>

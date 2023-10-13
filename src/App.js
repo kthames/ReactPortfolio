@@ -54,7 +54,7 @@ function App() {
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
-          onViewportEnter={() => setSelectedPage("contact")}
+          onViewportEnter={() => setSelectedPage("myskills")}
         >
           <MySkills />
         </motion.div>
@@ -89,8 +89,4 @@ export default App;
 
 
 // Need to add: 
-// -skills page
 // -resume 
-// -mail.js
-// -fix formatting for Landing
-// -add images

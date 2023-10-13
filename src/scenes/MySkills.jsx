@@ -16,7 +16,7 @@ const hoverClass = "hover:opacity-50 transition duration-500 mt-3 relative pr-5 
 const MySkills = () => {
 
   return (
-    <section id="projects" className="pt-24 pb-36">
+    <section id="skills" className="pt-24 pb-36">
       {/* HEADINGS */}
       <motion.div
         className="md:w-2/5 mx-auto text-center pb-12"
