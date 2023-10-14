@@ -56,11 +56,11 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Acknoledgements
 
-# ICONS8 
+### ICONS8 
 All icons were used for free from Icons8. 
 [Icons8](https://icons8.com/)
 
-# Ed Roh
+### Ed Roh
 My portfolio is inspired by Ed Roh's react porfolio design. Thanks to tutorials like his I get to learn about and practice important design concepts. 
 [Check him out on YouTube:](https://www.youtube.com/@EdRohDev)
 
