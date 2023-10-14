@@ -2,7 +2,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-My portfolio allows any user to view my skills and current projects, learn about my software development journey and contact me to build strong network connections. 
+My portfolio allows any user to view my skills and current projects, learn about my software development journey and contact me to build strong network connections.
+
+![Portfolio](./public/assets/PortfolioSS.png)
 
 ### Built With
 
@@ -74,6 +76,6 @@ Katherine Thames - [kthames](https://github.com/kthames) - kmthames32@gmail.com
 
 Project Link: [GitHub]([https://github.com/Fy50167/stock-trader](https://github.com/kthames/ReactPortfolio))
 
-Deployed Link: [GitHub Pages](https://kthames.github.io/ReactPortfolio/)https://kthames.github.io/ReactPortfolio/)
+Deployed Link: [GitHub Pages](https://kthames.github.io/ReactPortfolio/)
 
 
