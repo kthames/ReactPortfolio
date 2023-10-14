@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# My Portfolio
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My portfolio allows any user to view my skills and current projects, learn about my software development journey and contact me to build strong network connections. 
+
+### Built With
+
+* React
+* Tailwind
+* Framer Motion
+* Hook Form
+
+<!-- GETTING STARTED -->
+### Getting Started
+
+Please follow the instructions below to run this application locally.
 
 ## Available Scripts
 
@@ -39,33 +53,27 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknoledgements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# ICONS8 
+All icons were used for free from Icons8. 
+[Icons8](https://icons8.com/)
 
-### Code Splitting
+# Ed Roh
+My portfolio is inspired by Ed Roh's react porfolio design. Thanks to tutorials like his I get to learn about and practice important design concepts. 
+[Check him out on YouTube:](https://www.youtube.com/@EdRohDev)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- CONTACT -->
+## Contact
 
-### Making a Progressive Web App
+Katherine Thames - [kthames](https://github.com/kthames) - kmthames32@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Project Link: [GitHub]([https://github.com/Fy50167/stock-trader](https://github.com/kthames/ReactPortfolio))
 
-### Advanced Configuration
+Deployed Link: [GitHub Pages](https://kthames.github.io/ReactPortfolio/)https://kthames.github.io/ReactPortfolio/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# ReactPortfolio
