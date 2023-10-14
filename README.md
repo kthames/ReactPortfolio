@@ -74,7 +74,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Katherine Thames - [kthames](https://github.com/kthames) - kmthames32@gmail.com
 
-Project Link: [GitHub]([https://github.com/Fy50167/stock-trader](https://github.com/kthames/ReactPortfolio))
+Project Link: [GitHub](https://github.com/kthames/ReactPortfolio)
 
 Deployed Link: [GitHub Pages](https://kthames.github.io/ReactPortfolio/)
 
