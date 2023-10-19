@@ -25,7 +25,7 @@ const Project = ({ title, link}) => {
     <motion.div variants={projectVariant} className="relative max-w-[400px] max-h-[400px]">
       <div className={overlayStyles}>
         <p className="text-xl font-playfair">{title}</p>
-        <button class="bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-2 px-4 border border-primary hover:border-transparent rounded m-auto">
+        <button className="bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-2 px-4 border border-primary hover:border-transparent rounded m-auto">
           Visit the App
         </button>
       </div>

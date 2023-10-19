@@ -1,5 +1,8 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
+import { api, bootstrap, css, expressjs, github, githubS, handlebars, heroku, html, javascript, matlab, mongoDb, mySQL, nodeJs, react, tailwind } from "../assets";
+
+
 
 
 const container = {
@@ -55,7 +58,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="api-link" src="../assets/api.png" />
+            <img alt="api-link" src={api} />
           </a>
           <a
           className={hoverClass}
@@ -63,7 +66,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="bootstrap-link" src="../assets/bootstrap.png" />
+            <img alt="bootstrap-link" src={bootstrap} />
           </a>
           <a
           className={hoverClass}
@@ -71,7 +74,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="css-link" src="../assets/css.png" />
+            <img alt="css-link" src={css} />
           </a>
   
           {/* ROW 2 */}
@@ -81,7 +84,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="express-link" src="../assets/expressjs.png" />
+            <img alt="express-link" src={expressjs} />
           </a>
           <a
           className={hoverClass}
@@ -89,7 +92,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="github-link" src="../assets/githubS.png" />
+            <img alt="github-link" src={githubS} />
           </a>
           <a
           className={hoverClass}
@@ -97,7 +100,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="handlebars-link" src="../assets/handlebars.png" />
+            <img alt="handlebars-link" src={handlebars} />
           </a>
        
           {/* ROW 3 */}
@@ -107,7 +110,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="heroku-link" src="../assets/heroku.png" />
+            <img alt="heroku-link" src={heroku} />
           </a>
           <a
           className={hoverClass}
@@ -115,7 +118,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="html-link" src="../assets/html.png" />
+            <img alt="html-link" src={html} />
           </a>
           <a
           className={hoverClass}
@@ -123,7 +126,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="javascript-link" src="../assets/javascript.png" />
+            <img alt="javascript-link" src={javascript} />
           </a>
           {/* ROW 3 */}
           <a
@@ -132,7 +135,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="matlab-link" src="../assets/matlab.png" />
+            <img alt="matlab-link" src={matlab} />
           </a>
           <a
           className={hoverClass}
@@ -140,7 +143,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="mongodb-link" src="../assets/mongodb.png" />
+            <img alt="mongodb-link" src={mongoDb} />
           </a>
           <a
           className={hoverClass}
@@ -148,7 +151,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="mysql-link" src="../assets/mysql.png" />
+            <img alt="mysql-link" src={mySQL} />
           </a>
           {/* ROW 3 */}
           <a
@@ -157,7 +160,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="nodejs-link" src="../assets/nodejs.png" />
+            <img alt="nodejs-link" src={nodeJs} />
           </a>
           <a
           className={hoverClass}
@@ -165,7 +168,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="react-link" src="../assets/react.png" />
+            <img alt="react-link" src={react} />
           </a>
           <a
           className={hoverClass}
@@ -173,7 +176,7 @@ const MySkills = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="tailwind-link" src="../assets/tailwind.png" />
+            <img alt="tailwind-link" src={tailwind} />
           </a>
         </motion.div>
         
@@ -184,4 +187,3 @@ const MySkills = () => {
 
 export default MySkills;
 
-// still missing heroku, git, bootstrap, tailwind, node, express, react and mysql could be found in a different sie 
