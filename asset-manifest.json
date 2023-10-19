@@ -1,13 +1,24 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.91db68c4.css",
-    "main.js": "/react-gh-pages/static/js/main.963fdb41.js",
+    "main.js": "/react-gh-pages/static/js/main.3ddbd0b0.js",
+    "static/media/java-quiz.png": "/react-gh-pages/static/media/java-quiz.7f8ce2e0c7a68ff1d329.png",
+    "static/media/weather-forecast.png": "/react-gh-pages/static/media/weather-forecast.f429a67602823a5f367e.png",
+    "static/media/password-generator.png": "/react-gh-pages/static/media/password-generator.ae4fbdfa5674c0486050.png",
+    "static/media/hype-radar.png": "/react-gh-pages/static/media/hype-radar.fd094792b03d9cc77053.png",
+    "static/media/work-day-scheduler.png": "/react-gh-pages/static/media/work-day-scheduler.0762d0c1ebeea5d44b16.png",
+    "static/media/ublog.png": "/react-gh-pages/static/media/ublog.3fb5868a5521ce7b35be.png",
+    "static/media/stock-trader.png": "/react-gh-pages/static/media/stock-trader.42c34a79d07c89b68b6e.png",
+    "static/media/note-taker.png": "/react-gh-pages/static/media/note-taker.c12d54535b1214179c32.png",
+    "static/media/Avatar.jpeg": "/react-gh-pages/static/media/Avatar.8ba1650dbd7d6cfeb785.jpeg",
+    "static/media/menu-icon.svg": "/react-gh-pages/static/media/menu-icon.c4ff9c3de39f94d760f94dd444205ced.svg",
+    "static/media/close-icon.svg": "/react-gh-pages/static/media/close-icon.39eac6d267cad02053707b2c2a0e478f.svg",
     "index.html": "/react-gh-pages/index.html",
     "main.91db68c4.css.map": "/react-gh-pages/static/css/main.91db68c4.css.map",
-    "main.963fdb41.js.map": "/react-gh-pages/static/js/main.963fdb41.js.map"
+    "main.3ddbd0b0.js.map": "/react-gh-pages/static/js/main.3ddbd0b0.js.map"
   },
   "entrypoints": [
     "static/css/main.91db68c4.css",
-    "static/js/main.963fdb41.js"
+    "static/js/main.3ddbd0b0.js"
   ]
 }
