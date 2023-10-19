@@ -1,6 +1,6 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-import { api, bootstrap, css, expressjs, github, githubS, handlebars, heroku, html, javascript, matlab, mongoDb, mySQL, nodeJs, react, tailwind } from "../assets";
+import { api, bootstrap, css, expressjs, githubS, handlebars, heroku, html, javascript, matlab, mongoDb, mySQL, nodeJs, react, tailwind } from "../assets";
 
 
 

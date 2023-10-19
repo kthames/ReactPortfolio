@@ -1,5 +1,6 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
+import { stocktrader, passwordgenerator, hyperadar, javaquiz, ublog, workdayscheduler, notetaker, weatherforecast, github } from "../assets";
 
 const container = {
   hidden: {},
@@ -16,7 +17,7 @@ const projectVariant = {
 };
 
 
-const Project = ({ title, link}) => {
+const Project = ({ title, link, image}) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-neutral z-30 flex flex-col justify-center items-center text-center p-16 text-base-100`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -25,11 +26,17 @@ const Project = ({ title, link}) => {
     <motion.div variants={projectVariant} className="relative max-w-[400px] max-h-[400px]">
       <div className={overlayStyles}>
         <p className="text-xl font-playfair">{title}</p>
-        <button className="bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-2 px-4 border border-primary hover:border-transparent rounded m-auto">
-          Visit the App
-        </button>
+        <a 
+          href={link}
+          target="_blank" 
+          rel="noreferrer"
+         >
+          <button className="bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-2 px-4 border border-primary hover:border-transparent rounded m-auto">
+            Visit the App
+          </button>
+        </a>
       </div>
-      <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
+      <img src={image} alt={projectTitle} />
     </motion.div>
   );
 };
@@ -72,19 +79,19 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-          <Project title="Stock Trader" link="https://floating-wildwood-52719-0a69bbab7cea.herokuapp.com/login"/>
-          <Project title="Ublog" link="https://ublog-50a16cea80fc.herokuapp.com/"/>
-          <Project title="Hype Radar" link="https://github.com/fabioesilveira/hype-radar"/>
+          <Project title="Stock Trader" link="https://floating-wildwood-52719-0a69bbab7cea.herokuapp.com/login" image={stocktrader}/>
+          <Project title="Ublog" link="https://ublog-50a16cea80fc.herokuapp.com/" image={ublog}/>
+          <Project title="Hype Radar" link="https://github.com/fabioesilveira/hype-radar" image={hyperadar}/>
 
 
           {/* ROW 2 */}
-          <Project title="Work Day Scheduler" link="https://kthames.github.io/WorkDayScheduler/" />
-          <Project title="Weather Forecast" link="https://kthames.github.io/WeatherForecast/" />
-          <Project title="Java Quiz" link="https://kthames.github.io/JavaScriptQuiz/" />
+          <Project title="Work Day Scheduler" link="https://kthames.github.io/WorkDayScheduler/" image={workdayscheduler}/>
+          <Project title="Weather Forecast" link="https://kthames.github.io/WeatherForecast/" image={weatherforecast}/>
+          <Project title="Java Quiz" link="https://kthames.github.io/JavaScriptQuiz/" image={javaquiz}/>
 
           {/* ROW 3 */}
-          <Project title="Password Generator" link ="https://kthames.github.io/PasswordGenerator/"/>
-          <Project title="Note Taker" link="https://kthames.github.io/NoteTaker/"/>
+          <Project title="Password Generator" link ="https://kthames.github.io/PasswordGenerator/" image={passwordgenerator}/>
+          <Project title="Note Taker" link="https://kthames.github.io/NoteTaker/" image={notetaker}/>
           <div
             className="flex justify-center text-center items-center p-10 bg-primary
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
@@ -96,7 +103,7 @@ const Projects = () => {
           target="_blank"
           rel="noreferrer"
           >
-            <img alt="github-link" src="../assets/githubS.png" />
+            <img alt="github-link" src={github} />
           </a>
             
 

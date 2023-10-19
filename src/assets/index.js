@@ -9,22 +9,23 @@ import githubS from "./githubS.png";
 import handlebars from "./handlebars.png";
 import heroku from "./heroku.png"; 
 import html from "./html.png"; 
-import hypeRadar from "./hype-radar.png"; 
+import hyperadar from "./hype-radar.png"; 
 import instagram from "./instagram.png"; 
-import javaQuiz from "./java-quiz.png"; 
+import javaquiz from "./java-quiz.png"; 
 import javascript from "./javascript.png"; 
 import linkedIn from "./linkedin.png"; 
 import matlab from "./matlab.png"; 
 import menuIcon from "./menu-icon.svg"; 
 import mongoDb from "./mongodb.png"; 
 import mySQL from "./mysql.png"; 
+import notetaker from "./note-taker.png";
 import nodeJs from "./nodejs.png"; 
-import passwordGenerator from "./password-generator.png"; 
+import passwordgenerator from "./password-generator.png"; 
 import react from "./react.png"; 
-import stockTrader from "./stock-trader.png"; 
-import tailwind from "./tailwind"; 
+import stocktrader from "./stock-trader.png"; 
+import tailwind from "./tailwind.png"; 
 import ublog from "./ublog.png"; 
-import weatherForecast from "./weather-forecast.png"; 
-import workDayScheduler from "./work-day-scheduler.png"; 
+import weatherforecast from "./weather-forecast.png"; 
+import workdayscheduler from "./work-day-scheduler.png"; 
 
-export {avatar, api, bootstrap, closeIcon, css, expressjs, github, githubS, handlebars, heroku, hypeRadar, html, instagram, javaQuiz, javascript, linkedIn, matlab, menuIcon, mongoDb, mySQL, nodeJs, passwordGenerator, react, stockTrader, tailwind, ublog, weatherForecast, workDayScheduler}
+export {avatar, api, bootstrap, closeIcon, css, expressjs, github, githubS, handlebars, heroku, hyperadar, html, instagram, javaquiz, javascript, linkedIn, matlab, menuIcon, mongoDb, mySQL, nodeJs, notetaker, passwordgenerator, react, stocktrader, tailwind, ublog, weatherforecast, workdayscheduler}
